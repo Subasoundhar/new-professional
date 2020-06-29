@@ -1,0 +1,92 @@
+body{
+    background-color: lightpink;
+    font-family: font-family: 'Cherry Swash', cursive;
+    
+}
+.container{
+    width: 800px;  
+    margin: auto;
+    background-color: lemonchiffon;
+    padding: 0px 20px;
+    padding-bottom: 10px;
+}
+header h1{
+    font-size: 40px;
+    font-family: Pattaya;
+    padding: 20px 0;
+}
+header .connect{
+    background-color: lightgray;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+header .connect a{
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+    color: ; lightskyblue
+}
+header .connect a:link{
+    color: orangered;
+}
+header .connect a:hover{
+    color: maroon;
+}
+header .connect a:active{
+    color: mediumblue;
+}
+header .connect a:visited{
+    color: mediumorchid;
+}
+.information{
+    border: solid lemonchiffon;
+    margin: 0 0 30px;
+    padding-bottom: 10px;
+}
+.information h3{
+    background-color: lightgrey;
+    padding: 20PX;
+    font-size: 22px;
+}
+.information .info-data{
+    padding: 20px 10px;
+    font-size: 20px;
+}
+.table-1{
+
+}
+.table-1 tr{
+    
+}
+.table-1 td{
+    border: solid 2px lightgreen;
+    padding: 10px;
+}
+.table-1 th{
+    background-color: lightgreen;
+    border: solid 2px lightgreen;
+    padding: 10px;
+}
+.info-list-1{
+    list-style: lower-roman;
+    list-style-position: inside;
+}
+.info-list-2{
+    list-style: square;
+    list-style-position: inside;
+} 
+.table-2{
+   
+}
+.table-2 tr{
+    padding: 50px; 
+   
+}  
+}
+.table-2 td{
+    border: solid 10px none;
+    
+}
+.table-3{
+    font-size: 20px;
+}
