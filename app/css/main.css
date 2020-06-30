@@ -75,8 +75,8 @@ header .connect a:visited{
     list-style: square;
     list-style-position: inside;
 } 
-.table-2{
-   
+.table-3 td{
+    padding: 10px;
 }
 .table-2 tr{
     padding: 50px; 
@@ -89,4 +89,45 @@ header .connect a:visited{
 }
 .table-3{
     font-size: 20px;
+}
+
+.form-style-1 .fixed-width{
+    min-width: 180px;
+    display: inline-block;
+}
+
+.form-style-1 .input-section{
+    margin-bottom: 20px;
+}
+.form-style-1 .action-section{
+    margin-left: 185px;
+    display: inline-block;
+}
+.form-style-1 input[type='text'],
+.form-style-1 input[type='email'],
+.form-style-1 input[type='tel'],
+.form-style-1 select,
+.form-style-1 textarea{
+    border: solid 1px maroon;
+    padding: 6px;
+    min-width: 300px;
+}
+.form-style-1 textarea{
+    min-height: 150px;
+}
+.form-style-1 input:focus{
+    border-color: maroon;
+    outline: none;
+    box-shadow: maroon 0 0 10px;
+}
+.primary-button{
+    background-color: lightpink;
+    border: none;
+    padding: 10px 30px;
+    color: blue;
+    cursor: pointer;
+    font-size: 15px;
+}
+.information-1{
+    border-top: solid 50px lemonchiffon;
 }
