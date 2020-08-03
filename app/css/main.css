@@ -131,3 +131,14 @@ header .connect a:visited{
 .information-1{
     border-top: solid 50px lemonchiffon;
 }
+.info-data p {
+    padding: 5px;
+    margin-bottom: 17px;
+}
+.error-message{
+    color: red;
+    margin-left: 185px;
+    padding: 6px 0 0 0;
+    font-size: 12px;
+    display: none;
+}
